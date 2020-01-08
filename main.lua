@@ -1,6 +1,5 @@
 -- StartDebug();
 local mod = RegisterMod("test5", 1)
--- test for git
 
 local debugTextList = {}
 
