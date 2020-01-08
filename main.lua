@@ -7,7 +7,7 @@ local debugTextList = {}
 -- moveX and moveY are used to simulate the keyInput,
 --  eg, moveX = 1 : move to right
 --              0 : no movement in the horizonal axis
---              -1 : move to left 
+--              -1 : move to left
 local moveX;
 local moveY;
 -- local path = nil
@@ -121,7 +121,7 @@ function simpleMove(start, final)
   if final.X > start.X  then moveX = 1  end
   if final.Y > start.Y  then moveY = 1  end
   if final.X == start.X then moveX = 0  end
-  if final.Y == start.Y then moveY = 0  end 
+  if final.Y == start.Y then moveY = 0  end
   if final.X < start.X  then moveX = -1 end
   if final.Y < start.Y  then moveY = -1 end
 end
@@ -165,7 +165,7 @@ function mod:keyInput(entity, inputHook, buttonAction)
         if buttonAction == 3 and moveY == 1 then
             return 1
         end
-       
+
     end
   end
 end
