@@ -1,7 +1,7 @@
 -- StartDebug();
 local mod = RegisterMod("test5", 1)
 
--- test 
+-- test for git
 local debugTextList = {}
 
 -- moveX and moveY are used to simulate the keyInput,
