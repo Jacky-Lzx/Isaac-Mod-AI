@@ -1,8 +1,10 @@
 {
     "Lua.diagnostics.disable": [
-        "undefined-global"
+        "undefined-global",
+        "lowercase-global"
     ],
     "cSpell.words": [
-        "returnvalue"
+        "returnvalue",
+        "tostring"
     ]
 }
